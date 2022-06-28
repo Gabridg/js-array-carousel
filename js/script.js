@@ -60,6 +60,7 @@ for (let i = 0; i < source.length; i++) {
 carousel.innerHTML = imageElement;
 
 const images = document.querySelectorAll('#carousel img');
+console.log(images);
 
 
 let currentActiveIndex = 0;
